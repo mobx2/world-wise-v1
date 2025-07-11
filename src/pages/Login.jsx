@@ -6,6 +6,10 @@ export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("jack@example.com");
   const [password, setPassword] = useState("qwerty");
+<<<<<<< HEAD
+=======
+  7;
+>>>>>>> 31acf183a8820bd1df9d80b305342f0443e888a9
 
   return (
     <main className={styles.login}>

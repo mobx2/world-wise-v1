@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useNavigate, useSearchParams } from "react-router-dom";
 import styles from "./Map.module.css";
 
@@ -21,6 +22,12 @@ function Map() {
       </button>
     </div>
   );
+=======
+import styles from "./Map.module.css";
+
+function Map() {
+  return <div className={styles.mapContainer}>Map</div>;
+>>>>>>> 31acf183a8820bd1df9d80b305342f0443e888a9
 }
 
 export default Map;
